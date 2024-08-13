@@ -80,10 +80,10 @@ header {
 .navlist a:hover {
   color: #ed1d26;
 }
-.navlist li:hover {
+/* .navlist li:hover {
   transform: scale(1.2);
   transition: all 0.5s ease;
-}
+} */
 .nav-icons {
   display: flex;
   align-items: center;
@@ -820,7 +820,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     text-align: left;
-    background: var(--other-color);
+    background: var(--bg-color);
     transition: all 0.5s ease;
   }
   .navlist a {
