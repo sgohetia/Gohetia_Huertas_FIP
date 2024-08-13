@@ -873,7 +873,7 @@ button:hover {
     grid-template-columns: 1fr;
   }
   .about-img {
-    text-align: center;
+    text-align: left;
   }
 
   .header-shop {
@@ -944,7 +944,9 @@ button:hover {
   .details {
     gap: 1.5rem;
   }
-
+  .video {
+    width: 300px;
+  }
   .header-shop {
     width: 90%;
     flex-direction: column;
@@ -1006,7 +1008,9 @@ button:hover {
   .about-img {
     width: 500px;
   }
-
+  .video {
+    width: 300px;
+  }
   .header-shop {
     width: 90%;
     flex-direction: column;
