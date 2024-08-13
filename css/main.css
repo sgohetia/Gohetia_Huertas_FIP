@@ -75,13 +75,12 @@ header {
   transition: all 0.5s ease;
 }
 .navlist a.active {
-  color: #ffbb00;
+  color: #ed1d26;
 }
 .navlist a:hover {
-  color: #ffbb00;
+  color: #ed1d26;
 }
 .navlist li:hover {
-  color: #ffbb00;
   transform: scale(1.2);
   transition: all 0.5s ease;
 }
@@ -393,7 +392,7 @@ header.sticky {
   margin-bottom: 10px;
 }
 .ratings i {
-  color: var(--main-color);
+  color: #ffbb00;
   font-size: 18px;
   margin-right: 5px;
 }
@@ -556,7 +555,7 @@ textarea {
   width: 80px;
   color: var(--text-color);
   position: absolute;
-  top: 50%;
+  top: 80%;
   transform: translateY(-50%);
   font-size: 14px;
   cursor: pointer;
@@ -876,6 +875,53 @@ button:hover {
   .about-img {
     text-align: center;
   }
+
+  .header-shop {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .cart-shop {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+  }
+  .fa-cart-shopping {
+    padding-right: 10px;
+  }
+
+  .container-shop {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  #root {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-shop {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .foot-shop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkoutBtn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
 }
 
 /* - Grid style for Mobile -*/
@@ -897,6 +943,53 @@ button:hover {
   }
   .details {
     gap: 1.5rem;
+  }
+
+  .header-shop {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .cart-shop {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+  }
+  .fa-cart-shopping {
+    padding-right: 10px;
+  }
+
+  .container-shop {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  #root {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-shop {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .foot-shop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkoutBtn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
   }
 }
 
