@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burple - Products</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link href="css/grid.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/92d70a2fd8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h2 class="hidden">This is the Navigation Menu.</h2>
+      <a href="#" class="logo"><img src="image/logo-v2.png" /></a>
+      <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="index.html" class="active">Our Shop</a></li>
+        <li><a href="index.html">Our Customer</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <div class="nav-icons">
+        <a href="#"><i class="bx bx-search-alt-2"></i></a>
+        <a href="#shopnow"><i class="bx bx-cart"></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+    <section>
+      <div class="grid-con">
+        <div class="col-span-full img-slider">
+          <div id="slider-container">
+            <div id="image-slider">
+              <img
+                class="slider-image"
+                src="image/brand1.jpg"
+                alt="All Burple Flavors"
+              />
+              <img
+                class="slider-image"
+                src="image/brand2.jpg"
+                alt="Orange Juicec Flavor"
+              />
+              <img
+                class="slider-image"
+                src="image/brand3.jpg"
+                alt="Burple Beer Grapes"
+              />
+              <img
+                class="slider-image"
+                src="image/brand4.jpg"
+                alt="Burple Beer Cherry"
+              />
+              <img
+                class="slider-image"
+                src="image/brand5.jpg"
+                alt="Burple Beer Orange"
+              />
+              <img
+                class="slider-image"
+                src="image/brand6.jpg"
+                alt="Burple Beer Peach"
+              />
+            </div>
+            <button id="prev-btn">&#10094;</button>
+            <button id="next-btn">&#10095;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="body-shop" id="shopnow">
+      <div class="header-shop">
+        <p class="logo-shop">Burple Shopping Cart</p>
+        <div class="cart-shop">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p id="count">0</p>
+        </div>
+      </div>
+      <div class="container-shop">
+        <div id="root"></div>
+        <div class="sidebar-shop">
+          <div class="head-shop"><p>My Cart</p></div>
+          <div id="cartItem">Your cart is empty</div>
+          <div class="foot-shop">
+            <h3>Total</h3>
+            <h2 id="total">$ 0.00</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row-btn2 checkoutBtn">
+        <a href="products.html" class="btn"
+          >Proceed to Checkout<i class="bx bxs-right-arrow"></i
+        ></a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="hidden">This is for the Contact section.</h2>
+      <div class="contact-content">
+        <div class="contact-img">
+          <div class="c-one">
+            <img src="image/f1.png" />
+          </div>
+          <div class="c-one">
+            <img src="image/f2.png" />
+          </div>
+        </div>
+        <br />
+        <div class="contact-text">
+          <h2>Contact Us</h2>
+          <p>
+            At Burple, we are committed to delivering high-quality beverages
+            that excite and satisfy our customers. Each flavor is carefully
+            crafted to ensure a delightful experience, whether you're enjoying a
+            refreshing juice or a uniquely flavored beer.
+          </p>
+          <div class="social">
+            <a href="#" class="clr"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+          </div>
+        </div>
+        <div class="details">
+          <div class="main-d">
+            <a href="#"
+              ><i class="bx bxs-location-plus"></i>1255 Huron Street, London
+              ON</a
+            >
+          </div>
+          <div class="main-d">
+            <a href="#"
+              ><i class="bx bxl-linkedin-square"></i>Sheldon Gohetia</a
+            >
+          </div>
+          <div class="main-d">
+            <a href="#"
+              ><i class="bx bxl-linkedin-square"></i>Tanya Mae Huertas</a
+            >
+          </div>
+          <div class="main-d">
+            <a href="#"><i class="bx bxs-envelope"></i>Message Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h2 class="hidden">This is for the Static Scroll Up button of the page</h2>
+    <a href="#" class="scroll"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
