@@ -8,6 +8,8 @@ Due to conflicts encountered with the existing code, which affected the actual b
 
 Destructuring methods reference: [JavaScript](https://medium.com/@KeyurRamoliya/javascript-use-destructuring-to-extract-values-from-objects-and-arrays-2f27120be195#:~:text=JavaScript%20%E2%80%94%20Use%20Destructuring%20to%20Extract%20Values%20from%20Objects%20and%20Arrays,-Keyur%20Ramoliya&text=Destructuring%20is%20a%20powerful%20feature,working%20with%20complex%20data%20structures.).
 
+Click here to view our FIP: [Gohetia_Huertas_FIP](https://sgohetia.github.io/Gohetia_Huertas_FIP/).
+
 ## Installation
 
 There is no installation required.

@@ -1000,6 +1000,10 @@ button:hover {
     --big-font: 2.8rem;
     --h2-font: 2rem;
   }
+  .about-img,
+  .about-text {
+    flex: 1 1 100%;
+  }
 }
 
 /* - Grid style for Smaller Screen Mobile -*/
@@ -1008,5 +1012,9 @@ button:hover {
   .home {
     height: 110vh;
     gap: 0.1rem;
+  }
+  .about-img,
+  .about-text {
+    flex: 1 1 100%;
   }
 }
