@@ -101,14 +101,14 @@ header {
 }
 #menu-icon {
   font-size: 32px;
-  color: var(--text-color);
+  color: var(--bg-color);
   z-index: 10001;
   cursor: pointer;
   display: none;
 }
 .nav-icons i:hover {
   transform: scale(2.2);
-  color: var(--main-color);
+  color: var(--bg-color);
 }
 
 /* - Added style for the Home Section -*/
@@ -223,6 +223,26 @@ header.sticky {
   z-index: 0;
 }
 .about-text {
+  z-index: 1;
+}
+.messageUs {
+  z-index: 1;
+}
+
+.blob-motion2 {
+  position: absolute;
+  transform: translateX(70%);
+  z-index: 0;
+}
+.messageUs {
+  z-index: 1;
+}
+.blob-motion3 {
+  position: absolute;
+  transform: translateX(-40%);
+  z-index: 0;
+}
+.messageUs {
   z-index: 1;
 }
 /* Curved bg with SVG via https://www.shapedivider.app/ */
@@ -595,9 +615,9 @@ header.sticky {
 }
 
 #contact-hero-form input[type="submit"]:hover {
-  background: #000000;
+  background: #ed1d26;
   color: #fff;
-  box-shadow: #000000 0px 1px 1px;
+  box-shadow: #ed1d26 0px 1px 1px;
 }
 
 #contact-hero-text {
@@ -613,7 +633,7 @@ header.sticky {
 #contact-hero-form input,
 textarea {
   padding: 22px;
-  border: 1px solid #000000;
+  border: 1px solid #ffbb00;
   background-color: #fff;
   border-radius: 30px;
   margin-bottom: 30px;
@@ -712,7 +732,8 @@ textarea {
 .header-shop {
   height: 80px;
   width: 70%;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
+  background-color: #6a049c;
   border-radius: 5px;
   margin: 30px 0px;
   display: flex;
@@ -722,7 +743,8 @@ textarea {
 }
 .header-shop .logo-shop {
   font-size: 30px;
-  color: var(--text-color);
+  color: var(--bg-color);
+  font-weight: 700;
 }
 .cart-shop {
   display: flex;
@@ -767,7 +789,7 @@ textarea {
   text-align: center;
 }
 .head-shop {
-  background-color: #000000;
+  background-color: #6a049c;
   border-radius: 3px;
   height: 40px;
   padding: 10px;
@@ -817,23 +839,23 @@ textarea {
 }
 .h2-shop {
   font-size: 20px;
-  color: var(--text-color);
+  color: #ed1d26;
 }
 button {
   position: relative;
   border: none;
   border-radius: 20px;
-  background-color: var(--bg-color);
-  border: solid 1px var(--text-color);
+  border: solid 1px #80ce04;
+  background: #7dc903;
   padding: 7px 25px;
   cursor: pointer;
-  color: var(--text-color);
+  color: var(--bg-color);
 }
 button:hover {
-  background-color: var(--text-color);
+  background-color: #abf732;
   color: var(--bg-color);
   transition: all 0.5s ease;
-  box-shadow: #000 0px 1px 5px;
+  box-shadow: #80ce04 0px 1px 5px;
 }
 .cart-item-shop {
   display: flex;
