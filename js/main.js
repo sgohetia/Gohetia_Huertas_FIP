@@ -35,13 +35,13 @@
   sr.reveal(".home-text", { delay: 300 });
   sr.reveal(".home-img", { delay: 400 });
   sr.reveal(".container", { delay: 400 });
-  sr.reveal(".about-img", {});
-  sr.reveal(".about-text", { delay: 300 });
-  sr.reveal(".middle-text", {});
-  sr.reveal(".row-btn, .shop-content", { delay: 300 });
-  sr.reveal(".body-shop, .row-btn", { delay: 300 });
+  // sr.reveal(".about-img", {});
+  // sr.reveal(".about-text", { delay: 300 });
+  // sr.reveal(".middle-text", {});
+  // sr.reveal(".row-btn, .shop-content", { delay: 300 });
+  // sr.reveal(".body-shop, .row-btn", { delay: 300 });
   sr.reveal(".review-content, .contact", { delay: 300 });
-  sr.reveal(".img-slider, .messageUs", { delay: 300 });
+  sr.reveal(".img-slider", { delay: 300 });
 
   // This is for the image slider
   const slider = document.querySelector("#image-slider");

@@ -88,13 +88,13 @@ header {
   display: flex;
   align-items: center;
   padding: 8px 15px;
-  background: var(--bg-color);
+  background: #8be002;
   border-radius: 3rem;
-  box-shadow: #000000 0px 1px 5px;
+  box-shadow: #9bf50c 0px 1px 5px;
 }
 .nav-icons i {
   vertical-align: middle;
-  color: var(--text-color);
+  color: var(--bg-color);
   margin-right: 8px;
   margin-left: 5px;
   transition: all 0.5s ease;
@@ -171,9 +171,10 @@ section {
   font-size: 22px;
 }
 .btn:hover {
-  background: var(--main-color);
+  background: #ed1d26;
   color: var(--bg-color);
-  box-shadow: #000 0px 1px 5px;
+  box-shadow: #ed1d26 0px 1px 5px;
+  border: solid 1px #ed1d26;
 }
 .btn2 {
   display: inline-block;
@@ -195,17 +196,108 @@ header.sticky {
   padding: 12px 14%;
   background: var(--bg-color);
 }
+
+.location {
+  background: #ffbb00;
+}
+
+.orangeA {
+  background: #ffbb00;
+}
+/* .body-shop {
+  background: #ffbb00;
+} */
+.bgshop {
+  /* background: #190019; */
+  background: #290029;
+}
+.shoptext {
+  color: var(--bg-color);
+}
+
+/* Blobs SVG background image via https://haikei.app/ */
+
+.blob-motion {
+  position: absolute;
+  transform: translateX(60%);
+  z-index: 0;
+}
+.about-text {
+  z-index: 1;
+}
+/* Curved bg with SVG via https://www.shapedivider.app/ */
+
+.loc-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.loc-wave svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 129px;
+}
+
+.loc-wave {
+  fill: #ffffff;
+}
+
+.shop-curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.shop-curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 166px;
+}
+
+.shop-curve .shape-fill {
+  fill: #ffbb00;
+}
+
+.contact-curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.contact-curve svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 166px;
+}
+
+.contact-curve .shape-fill {
+  fill: #ffbb00;
+}
+
 .container {
-  padding: 30px 14% 70px;
+  padding: 100px 14% 70px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   gap: 2rem;
   text-align: center;
 }
 .container-box {
-  padding: 43px 43px 43px 43px;
+  padding: 33px 33px 33px 33px;
   background: var(--bg-color);
-  border: solid 2px var(--text-color);
   border-radius: 3rem;
 }
 .container-box img {
@@ -242,12 +334,13 @@ header.sticky {
 }
 .about-text h2 {
   font-size: var(--h2-font);
+  color: var(--bg-color);
   line-height: 1.3;
   margin-bottom: 2rem;
 }
 .about-text p {
   font-size: var(--p-font);
-  color: var(--second-color);
+  color: var(--bg-color);
   margin-bottom: 3rem;
   line-height: 30px;
 }
@@ -261,7 +354,7 @@ header.sticky {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: var(--text-color);
+  /* color: var(--text-color); */
 }
 .middle-text h2 {
   font-size: var(--h2-font);
@@ -280,7 +373,7 @@ header.sticky {
   position: relative;
   padding: 10px 35px 40px;
   background: var(--bg-color);
-  border: solid 2px var(--text-color);
+  /* border: solid 2px var(--text-color); */
   border-radius: 3rem;
 }
 .row img {
@@ -307,15 +400,15 @@ header.sticky {
 }
 .in-text .price h6 {
   font-size: 17px;
-  color: var(--main-color);
+  color: #ed1d26;
   font-weight: 600;
 }
 .in-text .sbtnn a {
   display: inline-block;
   padding: 9px 23px;
-  border: solid 1px var(--text-color);
-  background: var(--bg-color);
-  color: var(--main-color);
+  border: solid 1px #619b05;
+  background: #6eb102;
+  color: var(--bg-color);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -323,9 +416,9 @@ header.sticky {
   transition: all 0.5s ease;
 }
 .in-text .sbtnn a:hover {
-  background: var(--main-color);
+  background: #95f003;
   color: var(--bg-color);
-  box-shadow: #000 0px 1px 5px;
+  box-shadow: #95f003 0px 1px 5px;
 }
 .top-icon {
   position: absolute;
@@ -440,16 +533,17 @@ header.sticky {
   transition: all 0.5s ease;
 }
 .social .clr i {
-  color: var(--main-color);
+  color: #6a049c;
 }
 .social i:hover {
-  color: var(--main-color);
+  color: #b525fd;
 }
 .details {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 3rem;
+  margin-bottom: 20px;
 }
 .main-d a {
   display: flex;
@@ -462,7 +556,7 @@ header.sticky {
   vertical-align: middle;
   margin-right: 12px;
   font-size: 28px;
-  color: var(--main-color);
+  color: #6a049c;
 }
 
 /* This is for contact form */
@@ -573,12 +667,14 @@ textarea {
   right: 0px;
 }
 #prev-btn:hover {
-  background-color: var(--main-color);
+  border: 1px solid #fa2b36;
+  background-color: #ed1d26;
   color: var(--bg-color);
   transition: all 0.5s ease;
 }
 #next-btn:hover {
-  background-color: var(--main-color);
+  border: 1px solid #fa2b36;
+  background-color: #ed1d26;
   color: var(--bg-color);
   transition: all 0.5s ease;
 }
@@ -593,14 +689,14 @@ textarea {
 }
 .scroll i {
   font-size: 22px;
-  color: var(--text-color);
-  background: var(--bg-color);
-  border: solid 1px var(--text-color);
+  color: var(--bg-color);
+  background: #ffbb00;
+  /* border: solid 1px var(--text-color); */
   padding: 10px;
   border-radius: 2rem;
 }
 .scroll i:hover {
-  background: var(--text-color);
+  background: #ed1d26;
   color: var(--bg-color);
   transition: all 0.5s ease;
 }
@@ -789,7 +885,7 @@ button:hover {
     transition: 0.2s;
   }
   .container {
-    padding: 30px 4% 50px;
+    padding: 100px 4% 50px;
   }
 }
 
