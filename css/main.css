@@ -229,22 +229,6 @@ header.sticky {
   z-index: 1;
 }
 
-.blob-motion2 {
-  position: absolute;
-  transform: translateX(70%);
-  z-index: 0;
-}
-.messageUs {
-  z-index: 1;
-}
-.blob-motion3 {
-  position: absolute;
-  transform: translateX(-40%);
-  z-index: 0;
-}
-.messageUs {
-  z-index: 1;
-}
 /* Curved bg with SVG via https://www.shapedivider.app/ */
 
 .loc-wave {
@@ -603,7 +587,7 @@ header.sticky {
 
 #contact-hero-form input[type="submit"] {
   padding: 15px 35px;
-  border: solid 1px #000000;
+  border: solid 1px #ffbb00;
   background: #fff;
   color: #000000;
   font-size: 20px;
